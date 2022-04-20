@@ -118,6 +118,9 @@ body {
   height: 1px;
   transform: rotate(-20deg);
 }
+.info-tree__icon-modal {
+		text-align: center;
+	}
 .link1::before {
   content: "";
   position: absolute;
@@ -241,7 +244,6 @@ body {
   height: 70px;
 }
 .info-tree {
-  text-align: center;
   text-align: center;
   margin: 12px 0px 0px 0px;
   display: inline-flex;
@@ -379,6 +381,7 @@ body {
 }
   /*CSS для блока с текстом*/
 .modal-text {
+   text-align: center;
   padding: 15px 20px; /*внутренний отступ*/
 }
 /**MEDIA**/
