@@ -286,16 +286,19 @@ body {
   font-weight: 700;
   font-size: 15px;
   color: #000;
+   text-align: center;
 }
 .modal-list__text {
   font-weight: 400;
   font-size: 15px;
   color: #353434;
+  text-align: center;
 }
 .modal-list__suptitle {
   font-weight: 700;
   font-size: 15px;
   color: #000;
+   text-align: center;
 }
 /* Modal Window */
 .modal-btn {
@@ -316,7 +319,6 @@ body {
   background:#439DE0; /*цвет фона при наведении*/
 }
 .modal {
-  text-align-last: center;
   opacity: 0; /*изначально этот блок должен быть прозрачным*/ 
   background: rgba(0,0,0,0.7); /*задаём цвет фона*/
   pointer-events: none; /*делаем чтобы по элементу нельзя было кликнуть когда он прозрачный*/
